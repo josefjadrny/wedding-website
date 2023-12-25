@@ -11,7 +11,7 @@ export default function Couple () {
           <div className="row row-bottom-padded-md animate-box">
               <div className="col-md-8 col-md-offset-2 text-center">
                 <div ref={nodeRef} className={`col-md-5 col-sm-5 col-xs-5 nopadding${isVisible ? ' fade-in' : ''}`}>
-                  <img src="images/pepicek.jpg" className="img-responsive" alt="Bc. Josef Jadrný"/>
+                  <img src="images/luba.jpg" className="img-responsive" alt="Bc. Josef Jadrný"/>
                   <h3><strong>Luboš Cidlinský</strong></h3>
                 </div>
                 <div className="col-md-2 col-sm-2 col-xs-2 nopadding"><h2 className="amp-center"><i className="icon-heart"></i></h2></div>
