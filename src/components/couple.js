@@ -1,17 +1,21 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import { useIsVisible } from 'react-is-visible'
 
 export default function Couple () {
+  const nodeRef = useRef()
+  const isVisible = useIsVisible(nodeRef)
+
     return (
       <div id="fh5co-couple" className="fh5co-section-gray">
         <div className="container">
           <div className="row row-bottom-padded-md animate-box">
               <div className="col-md-8 col-md-offset-2 text-center">
-                <div className="col-md-5 col-sm-5 col-xs-5 nopadding">
+                <div ref={nodeRef} className={`col-md-5 col-sm-5 col-xs-5 nopadding${isVisible ? ' fade-in' : ''}`}>
                   <img src="images/pepicek.jpg" className="img-responsive" alt="Bc. Josef Jadrný"/>
                   <h3><strong>Luboš Cidlinský</strong></h3>
                 </div>
                 <div className="col-md-2 col-sm-2 col-xs-2 nopadding"><h2 className="amp-center"><i className="icon-heart"></i></h2></div>
-                <div className="col-md-5 col-sm-5 col-xs-5 nopadding">
+                <div className={`col-md-5 col-sm-5 col-xs-5 nopadding${isVisible ? ' fade-in' : ''}`}>
                   <img src="images/barunka.jpg" className="img-responsive" alt="Ing. Barbora Krchová"/>
                   <h3><strong>Štěpánka Krchová</strong></h3>
                 </div>
