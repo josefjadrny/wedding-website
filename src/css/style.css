@@ -1313,42 +1313,7 @@ figure {
   margin-bottom: 8px;
 }
 
-.hexa{
-  border: 0px;
-  float: left;
-  text-align: center;
-  height: 35px;
-  width: 60px;
-  font-size: 22px;
-  background: #f0f0f0;
-  color: #3c3c3c;
-  position: relative;
-  margin-top: 15px;
-}
 
-.hexa:before{
-  content: ""; 
-  position: absolute; 
-  left: 0; 
-  width: 0; 
-  height: 0;
-  border-bottom: 15px solid #f0f0f0;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  top: -15px;
-}
-
-.hexa:after{
-  content: ""; 
-  position: absolute; 
-  left: 0; 
-  width: 0; 
-  height: 0;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  border-top: 15px solid #f0f0f0;
-  bottom: -15px;
-}
 
 .timeline {
   position: relative;
@@ -1381,32 +1346,15 @@ figure {
   padding: 1.5em 0;
 }
 
-.timeline .hexa{
-  width: 16px;
-  height: 10px;
+.timeline .heart{
   position: absolute;
-  background: #E38F8F;
   z-index: 5;
   left: 0;
   right: 0;
   margin-left:auto;
   margin-right:auto;
-  top: -30px;
+  top: -28px;
   margin-top: 0;
-}
-
-.timeline .hexa:before {
-  border-bottom: 4px solid #E38F8F;
-  border-left-width: 8px;
-  border-right-width: 8px;
-  top: -4px;
-}
-
-.timeline .hexa:after {
-  border-left-width: 8px;
-  border-right-width: 8px;
-  border-top: 4px solid #E38F8F;
-  bottom: -4px;
 }
 
 .direction-l,
@@ -1516,16 +1464,16 @@ figure {
     clear: both;
     visibility: hidden;
   }
-  
-  .timeline .hexa {
-    left: -28px;
+
+  .timeline .heart {
+    left: -27px;
     right: auto;
     top: 8px;
   }
 
-  .timeline .direction-l .hexa {
+  .timeline .direction-l .heart {
     left: auto;
-    right: -28px;
+    right: -27px;
   }
 
   .direction-l {
@@ -1612,4 +1560,35 @@ figure {
     float: right;
     text-align: left;
   }
+}
+
+.heart {
+  background-color: #E38F8F;
+  display: inline-block;
+  height: 14px;
+  margin: 0 10px;
+  position: relative;
+  top: 0;
+  transform: rotate(-45deg);
+  width: 14px;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: #E38F8F;
+  border-radius: 50%;
+  height: 14px;
+  position: absolute;
+  width: 14px;
+}
+
+.heart:before {
+  top: -7px;
+  left: 0;
+}
+
+.heart:after {
+  left: 7px;
+  top: 0;
 }
