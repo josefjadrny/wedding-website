@@ -220,31 +220,70 @@ figure {
   -moz-animation: fadeIn 3s;
   -o-animation: fadeIn 3s;
   -ms-animation: fadeIn 3s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
 }
+
+.fade-delay-250 {
+  animation-delay: 250ms;
+}
+
+.fade-delay-500 {
+  animation-delay: 500ms;
+}
+
+.fade-delay-750 {
+  animation-delay: 750ms;
+}
+
+.fade-delay-1000 {
+  animation-delay: 1000ms;
+}
+
+.fade-delay-1250 {
+  animation-delay: 1250ms;
+}
+
+.fade-delay-1500 {
+  animation-delay: 1500ms;
+}
+
+.fade-delay-1750 {
+  animation-delay: 1750ms;
+}
+
+.fade-delay-2000 {
+  animation-delay: 2000ms;
+}
+
+.fade-delay-2250 {
+  animation-delay: 2250ms;
+}
+
 
 @keyframes fadeIn {
   0% { opacity: 0; }
-  100% { opacity: 1; }
+  100% { opacity: 1; visibility: visible; }
 }
 
 @-moz-keyframes fadeIn {
   0% { opacity: 0; }
-  100% { opacity: 1; }
+  100% { opacity: 1; visibility: visible; }
 }
 
 @-webkit-keyframes fadeIn {
   0% { opacity: 0; }
-  100% { opacity: 1; }
+  100% { opacity: 1; visibility: visible; }
 }
 
 @-o-keyframes fadeIn {
   0% { opacity: 0; }
-  100% { opacity: 1; }
+  100% { opacity: 1; visibility: visible; }
 }
 
 @-ms-keyframes fadeIn {
   0% { opacity: 0; }
-  100% { opacity: 1; }
+  100% { opacity: 1; visibility: visible; }
 }
 
 

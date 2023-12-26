@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './header'
 import Couple from './couple'
 import Countdown from './countdown'
-import Guests from './guests'
+import Timeline from './timeline'
 import Footer from './footer'
 
 export default function Layout () {
@@ -12,7 +12,7 @@ export default function Layout () {
           <Header/>
             <Couple/>
             <Countdown/>
-            <Guests/>
+            <Timeline/>
           <Footer/>
         </div>
       </div>
