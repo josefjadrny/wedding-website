@@ -32,7 +32,7 @@ export default function Couple () {
               <div className="col-md-8 col-md-offset-2">
                 <div className="col-md-12 text-center heading-section">
                   <h2>budou oddáni</h2>
-                  <p><strong>18.května 2024 na statku Buškovský Mlýn</strong></p>
+                  <p><strong>18.května 2024 na statku <a href="https://maps.app.goo.gl/JATCavUhFJiWZGXFA" target='_blank' rel="noreferrer">Buškovský Mlýn</a></strong></p>
                 </div>
               </div>
           </div>

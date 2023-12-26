@@ -11,7 +11,7 @@ export default function Footer () {
                 <h2>Luboš &amp; Štěpánka</h2>
               </div>
               <div className="col-md-6 col-md-offset-3 text-center">
-                <p>©Josef Jadrný 2024</p>
+                <p><a href="https://www.josefjadrny.info">©Josef Jadrný 2024</a></p>
               </div>
             </div>
           </div>
