@@ -1227,7 +1227,7 @@ figure {
 }
 
 .row-bottom-padded-md {
-  padding-bottom: 4em;
+  padding-bottom: 3em;
 }
 
 @media screen and (max-width: 768px) {

@@ -11,7 +11,7 @@ export default function Header () {
               <div className="container">
                 <div className="col-md-10 col-md-offset-1">
                     <div className="animate-box">
-                      <h1>Svatba</h1>
+                      <h1>Bereme se</h1>
                       <h2>Luboš &amp; Štěpánka</h2>
                       <p><span>18.5.2024</span></p>
                     </div>
